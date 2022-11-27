@@ -1,0 +1,71 @@
+body {
+    background: radial-gradient(#310202, #670505, rgb(0, 0, 0))no-repeat fixed;
+    font-family: 'Comic Neue', cursive;
+}
+
+h1 {
+    color: navajowhite;
+    font-size: 85px;
+    margin: 22px;
+    text-decoration: underline;
+}
+
+.container {
+    text-align: center;
+    margin-top: 23px;
+}
+
+table {
+    margin: auto;
+}
+
+input {
+    font-size: 35px;
+    font-family: 'Comic Neue', cursive;
+    border: 5px solid navajowhite;
+    border-radius: 20px;
+    margin-top: 15px;
+    text-align: right;
+    background: black;
+    color: red;
+    height: 65px;
+}
+
+button {
+    background: rgb(0, 0, 0);
+    color: red;
+    font-size: 40px;
+    font-family: 'Comic Neue', cursive;
+    border: 4px solid navajowhite;
+    border-radius: 100%;
+    width: 81px;
+    height: 65px;
+    cursor: pointer;
+    margin: 9px
+}
+
+button:hover {
+    background: navajowhite;
+    color: black;
+    border-color: #ff0000;
+}
+
+.calculator {
+    display: inline-block;
+    backdrop-filter: blur(9.5px);
+    -webkit-backdrop-filter: blur(9.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 16px;
+    box-shadow: 0px 1px 20px 20px rgb(205 0 0);
+    color: #232323;
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
+    background: #000000;
+    border: 4px solid navajowhite;
+    flex-basis: 400px;
+    height: 528px;
+    width: 415px;
+    padding: 0px 5px;
+    margin: 29px;
+}
